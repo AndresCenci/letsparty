@@ -11,7 +11,7 @@ export class AppComponent {
   audio;
 
   constructor() {
-    this.audio = new Audio('../sound/WhatIsLove.mp3');
+    this.audio = new Audio('../../sound/WhatIsLove.mp3');
   }
 
   click() {
